@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/kevanti/deploy-repositorio/static/css/main.91788a13.css",
+    "main.js": "/kevanti/deploy-repositorio/static/js/main.2b0b6cf9.js",
+    "static/js/453.1407b060.chunk.js": "/kevanti/deploy-repositorio/static/js/453.1407b060.chunk.js",
+    "static/media/kevin.jpg": "/kevanti/deploy-repositorio/static/media/kevin.55ba8702ac7f4c5e6354.jpg",
+    "static/media/Rectangle_2.svg": "/kevanti/deploy-repositorio/static/media/Rectangle_2.abee21cd23f50a980393.svg",
+    "static/media/Rectangle_3.svg": "/kevanti/deploy-repositorio/static/media/Rectangle_3.57dc5ca06f5b5eb260b7.svg",
+    "static/media/Rectangle_1.svg": "/kevanti/deploy-repositorio/static/media/Rectangle_1.08752a4b1a42c4f46643.svg",
+    "static/media/instagram.svg": "/kevanti/deploy-repositorio/static/media/instagram.57c3275526798daae062b7e933184660.svg",
+    "index.html": "/kevanti/deploy-repositorio/index.html",
+    "static/media/github.svg": "/kevanti/deploy-repositorio/static/media/github.a2dcecaacdba94077f71818776dd805b.svg",
+    "static/media/linkedin.svg": "/kevanti/deploy-repositorio/static/media/linkedin.a4f664eaf5a1c20440799ed8cca5b3ee.svg",
+    "static/media/works.svg": "/kevanti/deploy-repositorio/static/media/works.7d031684f9435e099051ed5220bd3a78.svg",
+    "static/media/contact.svg": "/kevanti/deploy-repositorio/static/media/contact.887dd9c03e35002349ed8a6b8e3bbd48.svg",
+    "static/media/resume.svg": "/kevanti/deploy-repositorio/static/media/resume.40f7f757bf9ae4d45bf4d199e8c45bb8.svg",
+    "static/media/download.svg": "/kevanti/deploy-repositorio/static/media/download.828c7e2738d02b2e88e215503b3a03a0.svg",
+    "static/media/house-door.svg": "/kevanti/deploy-repositorio/static/media/house-door.0011b7f51ce0fb4a1c89f5a857b88f1b.svg",
+    "static/media/facebook.svg": "/kevanti/deploy-repositorio/static/media/facebook.4172f094907a6837b8f36d120b55601b.svg",
+    "static/media/about.svg": "/kevanti/deploy-repositorio/static/media/about.1edf94d890100a7258408515385a2785.svg",
+    "static/media/list.svg": "/kevanti/deploy-repositorio/static/media/list.8e94aca0e8f7abf3d619eaf40794268e.svg",
+    "main.91788a13.css.map": "/kevanti/deploy-repositorio/static/css/main.91788a13.css.map",
+    "main.2b0b6cf9.js.map": "/kevanti/deploy-repositorio/static/js/main.2b0b6cf9.js.map",
+    "453.1407b060.chunk.js.map": "/kevanti/deploy-repositorio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91788a13.css",
+    "static/js/main.2b0b6cf9.js"
+  ]
+}
