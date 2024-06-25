@@ -1,0 +1,17 @@
+//UI Settings
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white
+}
+  
+
+// Components
+@import './components/root';
+@import './components/header';
+@import './components/container';
+@import './components/main'
+
+//Screens

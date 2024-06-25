@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import './styles/styles.scss';
+import { Container } from './components/container/container';
+import { Header } from './components/header/header';
+import { Menu } from './components/header/menu/menu';
+import { Name } from './components/header/name/name';
+import { Hamburger } from './components/header/menu/hamburger';
+
+import { Main } from './components/main/main';
+import { Profile } from './components/main/profile';
 
 function App() {
+  /**
+   * *Creamos el estado para ocultar y mostrar el menu
+   * Inicializamos el estado en "false"
+   */
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  //Creamos la función toggleMenu que cambiará el valor de "menuOpen" cada vez que la llamemos
+  const toggleMenu = () => setMenuOpen(prevState => !prevState);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Container>
+        <Header>
+          <Name />
+          <Hamburger toggleMenu={toggleMenu} />
+          <Menu open={menuOpen} />
+        </Header>
+
+        <Main>
+          <Profile/>
+        </Main>
+      </Container>
+    </>
   );
 }
 
